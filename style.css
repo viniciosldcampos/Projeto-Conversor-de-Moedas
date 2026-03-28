@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/plano-de-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background: #8c55fc;
+    opacity: 0.8;
+    width: 70%;
+    display: flex;
+    border: 1px solid #b1b1b1;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.container-content {
+    margin-left: 50px;
+}
+
+.container-content > label, select, input {
+    width: 100%;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+select {
+    margin: 10px 0 10px 0;
+    border: 1px solid rgba(206, 204, 204, 0.842);
+    border-radius: 5px;
+    background-color: #6424db;
+    color: #cecdcd;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    appearance: none;
+    padding: 0 0 0 20px;
+}
+
+input {
+    margin: 15px 0 0 0;
+    border: 1px solid rgba(206, 204, 204, 0.842);
+    background-color: #6424db;
+    color: #FFFFFF;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0 0 0 20px;
+}
+
+input::placeholder {
+    font-weight: 300;
+    color: #b1b1b1;
+}
+
+section {
+    margin: 30px 0 0 0;
+    height: 150px;
+    background-color: #6424db;
+    border: 1px solid rgba(206, 204, 204, 0.842);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 30px;
+    transform: rotate(270deg);
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-box:first-child {
+    margin-left: 20px;
+}
+
+.currency-box:last-child {
+    margin-right: 20px;
+}
+
+.currency-box > p {
+    text-align: center;
+    color: #d3d3d3;
+    padding: 5px;
+}
+
+.button {
+    display: flex;
+    margin: 30px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.button > .convert-button {
+    width: 100%;
+    height: 50px;
+    background-color: #641aec;
+    color: #FFFFFF;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button > .convert-button:hover {
+    width: 100%;
+    height: 50px;
+    background-color: #4b0dbe;
+    color: #FFFFFF;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
